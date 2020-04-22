@@ -1,0 +1,40 @@
+//==============================================
+// Module/wether
+//==============================================
+$weather-backgroundColor: #080e33;
+$weather-color: #efefef;
+$weather-temp-range-color: #ccc;
+
+.m-weather {
+  background-color: $weather-backgroundColor;
+  color: $weather-color;
+  font-family: $font-family-open;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  max-width: 320px;
+  text-align: left;
+  .weather-image {
+    position: relative;
+    width: 100px;
+    text-align: left;
+    img {
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+    }
+  }
+  .weather-information {
+    text-align: center;
+    padding: 1rem;
+    .weather-temperature {
+      font-size: 2em;
+    }
+    .weather-temp-range {
+      display: block;
+      font-size: 0.875em;
+      color: $weather-temp-range-color;
+    }
+  }
+}

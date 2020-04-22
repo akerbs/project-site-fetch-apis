@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+$main-background-color: #efefef;
+
+// SASS Befehle
+body {
+  background-color: $main-background-color;
+}
+
+::placeholder {
+  color: gray;
+}
+
+main {
+  padding: 2rem;
+}
+
+#output {
+  min-height: 300px;
+  width: 100%;
+  background-color: #efefef;
+  color: #333;
+  border-radius: 12px;
+  padding: 2em;
+}
+
+.l-sidebar {
+  position: absolute;
+  right: 0;
+  z-index: 9999;
+  text-align: right;
+  .btn-open-weather {
+    margin-bottom: 1rem;
+  }
+}

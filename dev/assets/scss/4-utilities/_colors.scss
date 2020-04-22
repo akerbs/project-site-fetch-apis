@@ -1,0 +1,131 @@
+//Custom variables
+//
+// Custom Variables should follow the `$purpose-propertyName` formula for
+// consistent naming. Ex: $highlight-color and $link-borderColor.
+// IF POSSIBLE TRY TO AVOID CUSTOM VARIABLES AND USE BOOTSTRAP VARIABLE NAMES LIKE: $yellow etc.
+// ============================
+// Descriptive colors
+// ============================
+$black: #000 !default;
+$black-light: #1c2226 !default;
+$white: #fff !default;
+$white-darken: darken($white, 35%);
+
+$red: #dc0132 !default;
+$dark-red: #a8272c !default;
+$grey-warm: #576160 !default;
+$grey-mid: #96a8a7 !default;
+$grey-light: #cbe3e1 !default;
+
+$blue-light: #a7c1d9;
+$blue: #235b8c;
+$blue-dark: #012840;
+$creme: #f0f0df !default;
+$gold: #e8c44d !default;
+
+$lime: #b4e831;
+$lime-light: #cbff7c;
+$mint: #ace8a4;
+$mint-light: #d9ffb4;
+
+// ============================
+// Theme colors
+// ============================
+$color-primary: $black !default;
+$color-accent: $blue;
+$color-highlight: $gold !default;
+
+$color-dark-red: $dark-red;
+$color-red: $red !default;
+$color-black: $black-light;
+$color-blue: $blue;
+
+$color-shadow: rgba($black, 0.125);
+$color-warm-grey: $grey-warm !default;
+$color-mid-grey: $grey-mid !default;
+$color-light-grey: $grey-light !default;
+
+$color-success: $success;
+$color-warning: $warning;
+$color-danger: $danger;
+$color-info: $info;
+$color-dark: $dark;
+
+// ============================
+// Main elements colors
+// ============================
+// // Descriptive color variables
+$background-color-selection: #a8d1ff;
+$color-selection: $dark;
+
+$color-text: #777;
+$text-link: $color-accent !default;
+$color-text-main: $black-light !default;
+$color-headers: $black-light !default;
+
+// links
+$color-link: $color-black !default;
+$color-link-hover: $color-accent !default;
+$color-link-visited: $color-accent !default;
+$color-link-bg-hover: $color-accent !default;
+
+// background
+$color-background: $white !default;
+
+$link-border-color: none;
+
+$bg-grey: #f4f4f4;
+
+// ===========================
+// Bootstrap Variables
+// ===========================
+
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+// $blue:    #007bff !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: $color-red !default;
+$orange: #fd7e14 !default;
+$yellow: #fffa47;
+$green: #28a745 !default;
+$teal: #20c997 !default;
+$cyan: #17a2b8 !default;
+
+$primary: $lime;
+$secondary: $gray-600 !default;
+$success: $gold !default;
+$info: $light-blue !default;
+$warning: lighten($color-highlight, 20) !default;
+$danger: $color-red !default;
+$light: $gray-100 !default;
+$dark: $gray-800 !default;
+
+$primary-color: $primary;
+$danger-color: $danger;
+$success-color: $success;
+$warning-color: $warning;
+$dark-color: $dark;
+$info-color: $info;
+
+$default-color: #f7f7f7;
+$dark-color: #141414;
+$info-color: #5bc0de;
+
+$mark-color: $color-primary;
+$mark-background-color: #a8d1ff;
+$line-color: #555;
+
+$darkMode-headings-color: $white;
+$darkMode-color: $white;

@@ -1,0 +1,47 @@
+//==============================================
+// Module/menu-main
+//==============================================
+.menu-main {
+  padding: 0;
+  margin: 0;
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    li {
+      list-style: none;
+      border-right: 1px solid #fff;
+      &:last-child {
+        border-right: none;
+      }
+      a {
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+        color: skyblue;
+        background-color: #222;
+
+        min-width: 120px;
+        text-align: center;
+        padding: 0.5em 1em;
+        transition: all 0.8s ease-out;
+        &:hover {
+          color: #222;
+          background-color: #fff;
+        }
+      }
+    }
+  }
+}
+
+// @media (min-width: 920px) {
+//   .menu-main {
+//     background-color: limegreen;
+//   }
+//   .menu-main ul li a {
+//     color: red;
+//   }
+// }
