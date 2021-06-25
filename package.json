@@ -45,7 +45,7 @@
     "gulp-strip-debug": "^3.0.0",
     "gulp-uglify": "^3.0.2",
     "imagemin-jpegtran": "^6.0.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^6.0.1",
     "prettier": "^1.19.1",
     "vinyl-source-stream": "^2.0.0",
     "yargs": "^15.1.0"
